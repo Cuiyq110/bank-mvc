@@ -1,0 +1,38 @@
+<component name="libraryTable">
+  <library name="c3p0-0.9.1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-beanutils-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-dbutils-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-dbutils-1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-dbutils-1.8.1-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/druid-1.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/fastjson-1.1.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/gson-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/kaptcha-2.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.23-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/standard.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/taglibs-standard-spec-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/ValidateCode.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-dbutils-1.8.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bank-mvc-001/src/main/webapp/WEB-INF/lib/commons-dbutils-1.8.1-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

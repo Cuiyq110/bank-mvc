@@ -1,4 +1,4 @@
-package src.main.java.com.cuiyq.bankmvc001;
+package com.cuiyq;
 
 
 import javax.servlet.annotation.WebServlet;
