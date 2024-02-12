@@ -5,7 +5,7 @@
     <title>银行账户转账</title>
   </head>
   <body>
-  <form action="transfer" method="post">
+  <form action="accountServlet" method="post">
     转出账户：<input type="text" name="fromActno"><br>
     转入账户：<input type="text" name="toActno"><br>
     转账金额：<input type="text" name="money"><br>

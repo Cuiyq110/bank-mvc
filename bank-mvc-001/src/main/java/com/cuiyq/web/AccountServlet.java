@@ -1,5 +1,9 @@
 package com.cuiyq.web;
 
+import com.cuiyq.exceptions.AccountNotExitException;
+import com.cuiyq.service.AccountService;
+import com.cuiyq.service.impl.AccountServiceImpl;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,9 +20,21 @@ import java.io.IOException;
  */
 @WebServlet("/accountServlet")
 public class AccountServlet extends HttpServlet {
+    AccountService accountService = new AccountServiceImpl();
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("AccountServlet");
+       String fromActno = req.getParameter("fromActno");
+       String toActno = req.getParameter("toActno");
+       Double money = Double.parseDouble(req.getParameter("money"));
+
+//        调用model处理业务，
+        try {
+            accountService.transfer(fromActno, toActno, money);
+        } catch (AccountNotExitException e) {
+            resp.sendRedirect(req.getContextPath() + "/AccountNotExit.jsp");
+        }
+        ;
     }
 }
