@@ -12,3 +12,4 @@ insert into accout values(null,'act001', 50000)
 
 create user 'mvc'@'%' identified by '123456';
 grant all on mvc.*  to 'mvc'@'%';
+

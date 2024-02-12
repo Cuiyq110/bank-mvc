@@ -13,6 +13,12 @@ public class Account {
     public Account() {
     }
 
+    public Account(int id, String actno, Double balance) {
+        this.id = id;
+        this.actno = actno;
+        this.balance = balance;
+    }
+
     public int getId() {
         return id;
     }

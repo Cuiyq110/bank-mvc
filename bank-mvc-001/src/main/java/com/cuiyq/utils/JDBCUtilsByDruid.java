@@ -27,12 +27,12 @@ public class JDBCUtilsByDruid {
         Properties properties = new Properties();
         try {
 
-            String path = JDBCUtilsByDruid.class.getClassLoader().getResource("/").getPath();
-            System.out.println(path);
 
             properties.load(new FileInputStream(JDBCUtilsByDruid.class.getClassLoader().getResource("jdbc.properties").getPath()));
 
+//            properties.load(new FileInputStream("src\\jdbc.properties"));
             ds = DruidDataSourceFactory.createDataSource(properties);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
